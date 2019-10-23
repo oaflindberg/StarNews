@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto+Slab&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
 
 *,
 *::before,
@@ -9,9 +10,10 @@
 }
 
 body {
-    background: #e1e1e1;
+    background: #f7f7fa;
     min-height: 100vh;
     width: 100vw;
+    font-family: 'Roboto', sans-serif;
 }
 
 nav {
@@ -26,6 +28,30 @@ nav {
     width: 100%;
 }
 
+main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+article {
+    width: 90vw;
+    height: auto;
+    background: #fff;
+    margin: 20px;
+    padding: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.144);
+    border-radius: 3px;
+    line-height: 1.4em;
+}
+
+.authorimage {
+    width: 75px;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.288);
+}
+
 nav h1 {
     font-size: 2em;
     letter-spacing: .2em;
@@ -35,4 +61,40 @@ nav h1 {
 
 nav p {
     font-size: 1em;
+}
+
+.articletitle {
+    margin-bottom: 5px;
+    font-family: 'Roboto Slab', serif;
+}
+
+.articlecontent {
+    margin-bottom: 40px;
+}
+
+.articlefooter {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 90vw;
+    background: rgb(247, 246, 246);
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    margin: -10px;
+    padding: 10px;
+}
+
+.authorheadshot {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.italic {
+    font-style: italic;
+    margin-bottom: 40px;
+    font-size: 15px;
 }

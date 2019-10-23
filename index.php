@@ -38,12 +38,16 @@ require __DIR__ . '/functions.php';
                 <?php $articleLikes = $author['articles'][$i]['likes']; ?>
 
                 <article>
-                    <h1><?php echo $articleTitle; ?></h1>
-                    <p><?php echo $articleContent ?></p>
-                    <p><?php echo $authorName ?></p>
-                    <img src="<?php echo $authorImage ?>" alt="">
-                    <p class="italic"><?php echo $articlePublished ?></p>
-                    <p><?php echo $articleLikes ?></p>
+                    <h1 class="articletitle"><?php echo nl2br($articleTitle); ?></h1>
+                    <p class=" italic">Article published: <?php echo $articlePublished ?></p>
+                    <p class="articlecontent"><?php echo nl2br($articleContent) ?></p>
+                    <div class=" articlefooter">
+                        <div class="authorheadshot">
+                            <img class="authorimage" src="<?php echo $authorImage; ?>" alt="<?php echo $authorName; ?>">
+                            <p><?php echo $authorName ?></p>
+                        </div>
+                        <p>Likes: <?php echo $articleLikes; ?></p>
+                    </div>
                 </article>
 
             <?php endfor; ?>
