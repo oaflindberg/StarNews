@@ -1,7 +1,7 @@
 <?php
 
-require __DIR__ . '/functions.php';
 require __DIR__ . '/data.php';
+require __DIR__ . '/functions.php';
 
 ?>
 
@@ -12,20 +12,42 @@ require __DIR__ . '/data.php';
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Plain News</title>
+    <title>Star News</title>
     <link rel="stylesheet" href="style.css">
-    <link rel="shortcut icon" href="favicon/coffee-cup.png" type="image/x-icon">
+    <link rel="shortcut icon" href="favicon/lightsaber.png" type="image/x-icon">
 </head>
 
 <body>
     <nav>
-        <h1>Plain News!</h1>
+        <h1>Star News!</h1>
         <p>News from a galaxy far, far away...</p>
     </nav>
-    <main>
-        <article>
 
-        </article>
+    <main>
+        <?php foreach ($authors as $author) : ?>
+
+            <?php $authorName = $author["name"]; ?>
+            <?php $authorImage = $author["authorimg"]; ?>
+            <?php $authorId = $author["id"]; ?>
+
+            <?php for ($i = 0; $i <= 1; $i++) : ?>
+
+                <?php $articleTitle = $author['articles'][$i]['title']; ?>
+                <?php $articleContent = $author['articles'][$i]['content']; ?>
+                <?php $articlePublished = $author['articles'][$i]['published']; ?>
+                <?php $articleLikes = $author['articles'][$i]['likes']; ?>
+
+                <article>
+                    <h1><?php echo $articleTitle; ?></h1>
+                    <p><?php echo $articleContent ?></p>
+                    <p><?php echo $authorName ?></p>
+                    <img src="<?php echo $authorImage ?>" alt="">
+                    <p class="italic"><?php echo $articlePublished ?></p>
+                    <p><?php echo $articleLikes ?></p>
+                </article>
+
+            <?php endfor; ?>
+        <?php endforeach; ?>
     </main>
 
 </body>
