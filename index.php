@@ -1,5 +1,7 @@
 <?php
 
+require __DIR__ . '/functions.php';
+require __DIR__ . '/data.php';
 
 ?>
 
@@ -18,6 +20,7 @@
 <body>
     <nav>
         <h1>Plain News!</h1>
+        <p>News from a galaxy far, far away...</p>
     </nav>
     <main>
         <article>
