@@ -84,18 +84,3 @@ $newsItems = [
         'published' => 'May 29, 1977',
     ],
 ];
-
-foreach ($newsItems as $newsItem) {
-    $title = $newsItem['title'];
-    $author = $newsItem['author'];
-    $content = $newsItem['content'];
-    $published = $newsItem['published'];
-    echo $author . ': ';
-    echo $title;
-    echo "<br />";
-    echo $content;
-    echo "<br />";
-    echo "Published: " . $published;
-    echo "<br />";
-    echo "<br />";
-}
