@@ -3,6 +3,10 @@
 require __DIR__ . '/data.php';
 require __DIR__ . '/functions.php';
 
+usort($articles, function (array $a, array $b): int {
+    return strtotime($b['published']) - strtotime($a['published']);
+});
+
 ?>
 
 <!DOCTYPE html>
@@ -36,7 +40,7 @@ require __DIR__ . '/functions.php';
                 ?>
 
             <article>
-                <h1 class="articletitle"><?php echo $articleTitle; ?></h1>
+                <h1 class="articletitle"><?php echo getRandomTitle(); ?></h1>
                 <p class="articlepublished">Article published: <?php echo $articlePublished; ?></p>
                 <p class="likes">Likes: <?php echo randomLikes() ?></p>
 
@@ -49,7 +53,7 @@ require __DIR__ . '/functions.php';
                 <div class="articlefooter">
                     <div class="authorheadshot">
                         <img class="authorimage" src="<?php echo $authorImage; ?>" alt="Image of <?php echo $authorname; ?>">
-                        <p class="authorname"><?php echo 'Article written by: ' . $authorName; ?></p>
+                        <p class="authorname">Article written by: <?php echo $authorName; ?></p>
                     </div>
                 </div>
             </article>
