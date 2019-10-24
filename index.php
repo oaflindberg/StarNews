@@ -24,33 +24,36 @@ require __DIR__ . '/functions.php';
     </nav>
 
     <main>
-        <?php foreach ($authors as $author) : ?>
+        <?php foreach ($articles as $article) : ?>
+            <?php
+                $articleTitle = $article['title'];
+                $articleContent = $article['content'];
+                $authorName = $authors[$article['authorId']]['name'];
+                $authorImage = $authors[$article['authorId']]['image'];
+                $articlePublished = $article['published'];
+                $articleLikes = $article['likes'];
+                $articleImage = $article['image']
+                ?>
 
-            <?php $authorName = $author["name"]; ?>
-            <?php $authorImage = $author["authorimg"]; ?>
-            <?php $authorId = $author["id"]; ?>
+            <article>
+                <h1 class="articletitle"><?php echo $articleTitle; ?></h1>
+                <p class="articlepublished">Article published: <?php echo $articlePublished; ?></p>
+                <p class="likes">Likes: <?php echo randomLikes() ?></p>
 
-            <?php for ($i = 0; $i <= 1; $i++) : ?>
+                <div class="imagewrapper">
+                    <img class="articleimage" src="<?php echo $articleImage; ?>" alt="Star Wars poster">
+                </div>
 
-                <?php $articleTitle = $author['articles'][$i]['title']; ?>
-                <?php $articleContent = $author['articles'][$i]['content']; ?>
-                <?php $articlePublished = $author['articles'][$i]['published']; ?>
-                <?php $articleLikes = $author['articles'][$i]['likes']; ?>
+                <p><?php echo nl2br($articleContent); ?></p>
 
-                <article>
-                    <h1 class="articletitle"><?php echo nl2br($articleTitle); ?></h1>
-                    <p class=" italic">Article published: <?php echo $articlePublished ?></p>
-                    <p class="articlecontent"><?php echo nl2br($articleContent) ?></p>
-                    <div class=" articlefooter">
-                        <div class="authorheadshot">
-                            <img class="authorimage" src="<?php echo $authorImage; ?>" alt="<?php echo $authorName; ?>">
-                            <p><?php echo $authorName ?></p>
-                        </div>
-                        <p>Likes: <?php echo $articleLikes; ?></p>
+                <div class="articlefooter">
+                    <div class="authorheadshot">
+                        <img class="authorimage" src="<?php echo $authorImage; ?>" alt="Image of <?php echo $authorname; ?>">
+                        <p class="authorname"><?php echo 'Article written by: ' . $authorName; ?></p>
                     </div>
-                </article>
+                </div>
+            </article>
 
-            <?php endfor; ?>
         <?php endforeach; ?>
     </main>
 
