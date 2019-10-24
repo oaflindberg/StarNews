@@ -11,6 +11,7 @@
 
 body {
     background: #f7f7fa;
+    color: #0A0A0A;
     min-height: 100vh;
     width: 100vw;
     font-family: 'Roboto', sans-serif;
@@ -39,7 +40,7 @@ article {
     height: auto;
     background: #fff;
     margin: 20px;
-    padding: 10px;
+    padding: 20px;
     box-shadow: 0 0 15px rgba(0, 0, 0, 0.144);
     border-radius: 3px;
     line-height: 1.4em;
@@ -68,6 +69,27 @@ nav p {
     font-family: 'Roboto Slab', serif;
 }
 
+.articlepublished {
+    font-style: italic;
+    font-size: 12px;
+}
+
+.likes {
+    font-size: 10px;
+    margin-bottom: 20px;
+}
+
+.imagewrapper {
+    display: flex;
+    justify-content: center;
+}
+
+.articleimage {
+    width: 50vw;
+    height: auto;
+    margin-bottom: 20px;
+}
+
 .articlecontent {
     margin-bottom: 40px;
 }
@@ -82,19 +104,36 @@ nav p {
     background: rgb(247, 246, 246);
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
-    margin: -10px;
     padding: 10px;
+    margin: 20px 0 -20px -20px;
 }
 
 .authorheadshot {
     display: flex;
-    flex-direction: column;
-    align-items: center;
-
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: center;
 }
 
-.italic {
+.authorname {
+    margin-left: 10px;
     font-style: italic;
-    margin-bottom: 40px;
-    font-size: 15px;
+    font-size: 12px;
+}
+
+@media only screen and (min-width: 1200px) {
+    .imagewrapper {
+        display: flex;
+        justify-content: flex-start;
+    }
+
+    .articleimage {
+        width: 30vw;
+        height: auto;
+        margin-bottom: 20px;
+    }
+
+    .article {
+        width: 70vw;
+    }
 }
