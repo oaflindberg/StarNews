@@ -12,7 +12,6 @@ First assignment in PHP class @ YRGO.
 - Clone repository
 - Start a PHP server from the folder
 
-#
 
 
 ## Screenshots
