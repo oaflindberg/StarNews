@@ -42,8 +42,10 @@ usort($articles, function (array $a, array $b): int {
             <article>
                 <h1 class="articletitle"><?php echo getRandomTitle(); ?></h1>
                 <p class="articlepublished">Article published: <?php echo $articlePublished; ?></p>
-                <p class="likes">Likes: <?php echo randomLikes() ?></p>
-
+                <div class="like">
+                    <img class="likeicon" src="img/like.png" alt="Heart">
+                    <p class="likes">Likes: <?php echo randomLikes() ?></p>
+                </div>
                 <div class="imagewrapper">
                     <img class="articleimage" src="<?php echo $articleImage; ?>" alt="Star Wars poster">
                 </div>
@@ -53,7 +55,7 @@ usort($articles, function (array $a, array $b): int {
                 <div class="articlefooter">
                     <div class="authorheadshot">
                         <img class="authorimage" src="<?php echo $authorImage; ?>" alt="Image of <?php echo $authorname; ?>">
-                        <p class="authorname">Article written by: <?php echo $authorName; ?></p>
+                        <p class="authorname">Article by: <?php echo $authorName; ?></p>
                     </div>
                 </div>
             </article>
