@@ -74,8 +74,20 @@ nav p {
     font-size: 12px;
 }
 
+.like {
+    display: flex;
+    flex-direction: row;
+}
+
+.likeicon {
+    height: 12px;
+    width: 12px;
+    margin-top: 5px;
+    margin-right: 5px;
+}
+
 .likes {
-    font-size: 10px;
+    font-size: 12px;
     margin-bottom: 20px;
 }
 
