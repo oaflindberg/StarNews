@@ -14,7 +14,7 @@ $articles = [
         'authorId' => 1,
         'image' => 'img/starwars.png',
     ],
-    $articles = [
+    [
         'title' => 'Darth moff fett leia wookiee kenobi qui-gonn.',
         'content' => "Lucas ipsum dolor sit amet darth darth binks ventress moff gamorrean skywalker kenobi sith sidious. Mustafar kenobi darth anakin. Lobot aayla skywalker gamorrean palpatine mon fett. Skywalker c-3p0 luke tatooine. R2-d2 naboo yoda greedo yavin aayla palpatine tatooine. Ewok jabba hutt yavin boba vader dagobah tusken raider skywalker. Bothan dooku kamino wedge darth jade. Hutt palpatine organa moff moff skywalker gamorrean binks twi'lek. Obi-wan obi-wan skywalker fett kashyyyk. Kenobi skywalker leia binks.
          Moff darth skywalker organa tusken raider organa. Moff leia endor hutt yoda moff.
@@ -28,7 +28,7 @@ $articles = [
         'authorId' => 1,
         'image' => 'img/starwars.png',
     ],
-    $articles = [
+    [
         'title' => 'Fett aayla gonk hutt. Dantooine palpatine hutt ben jango mace grievous.',
         'content' => "Lucas ipsum dolor sit amet darth darth binks ventress moff gamorrean skywalker kenobi sith sidious. Mustafar kenobi darth anakin. Lobot aayla skywalker gamorrean palpatine mon fett. Skywalker c-3p0 luke tatooine. R2-d2 naboo yoda greedo yavin aayla palpatine tatooine. Ewok jabba hutt yavin boba vader dagobah tusken raider skywalker. Bothan dooku kamino wedge darth jade. Hutt palpatine organa moff moff skywalker gamorrean binks twi'lek. Obi-wan obi-wan skywalker fett kashyyyk. Kenobi skywalker leia binks.
          Moff darth skywalker organa tusken raider organa. Moff leia endor hutt yoda moff. Grievous jabba wedge lando. Jabba moff jade leia yoda dooku vader antilles. Grievous mara ponda skywalker leia jawa. C-3p0 dantooine hutt mara binks kamino skywalker moff. Ahsoka hutt r2-d2 dagobah obi-wan wicket. Fisto darth hoth ben windu. Organa kessel tatooine ponda yoda calamari. Yavin maul mustafar kenobi hutt hutt windu. Skywalker yavin anakin moff darth. Organa ben dooku hutt chewbacca skywalker fett. Baba windu ben fisto mon tatooine grievous hutt luke.                
@@ -40,7 +40,7 @@ $articles = [
         'authorId' => 2,
         'image' => 'img/starwars.png',
     ],
-    $articles = [
+    [
         'title' => 'Ewok grievous tatooine kessel jar maul darth jar solo.',
         'content' => "Lucas ipsum dolor sit amet darth darth binks ventress moff gamorrean skywalker kenobi sith sidious. Mustafar kenobi darth anakin. Lobot aayla skywalker gamorrean palpatine mon fett. Skywalker c-3p0 luke tatooine. R2-d2 naboo yoda greedo yavin aayla palpatine tatooine. Ewok jabba hutt yavin boba vader dagobah tusken raider skywalker. Bothan dooku kamino wedge darth jade. Hutt palpatine organa moff moff skywalker gamorrean binks twi'lek. Obi-wan obi-wan skywalker fett kashyyyk. Kenobi skywalker leia binks.
          Moff darth skywalker organa tusken raider organa. Moff leia endor hutt yoda moff.
@@ -54,7 +54,7 @@ $articles = [
         'authorId' => 2,
         'image' => 'img/starwars.png',
     ],
-    $articles = [
+    [
         'title' => 'Dooku kenobi antilles jade darth fett. Han yoda ventress leia wicket.',
         'content' => "Lucas ipsum dolor sit amet darth darth binks ventress moff gamorrean skywalker kenobi sith sidious. Mustafar kenobi darth anakin. Lobot aayla skywalker gamorrean palpatine mon fett. Skywalker c-3p0 luke tatooine. R2-d2 naboo yoda greedo yavin aayla palpatine tatooine. Ewok jabba hutt yavin boba vader dagobah tusken raider skywalker. Bothan dooku kamino wedge darth jade. Hutt palpatine organa moff moff skywalker gamorrean binks twi'lek. Obi-wan obi-wan skywalker fett kashyyyk. Kenobi skywalker leia binks.
          Moff darth skywalker organa tusken raider organa.
@@ -68,7 +68,7 @@ $articles = [
         'authorId' => 3,
         'image' => 'img/starwars.png',
     ],
-    $articles = [
+    [
         'title' => 'Alderaan k-3po darth mothma.',
         'content' => "Lucas ipsum dolor sit amet darth darth binks ventress moff gamorrean skywalker kenobi sith sidious.
         Mustafar kenobi darth anakin. Lobot aayla skywalker gamorrean palpatine mon fett. Skywalker c-3p0 luke tatooine. R2-d2 naboo yoda greedo yavin aayla palpatine tatooine. Ewok jabba hutt yavin boba vader dagobah tusken raider skywalker. Bothan dooku kamino wedge darth jade. Hutt palpatine organa moff moff skywalker gamorrean binks twi'lek. Obi-wan obi-wan skywalker fett kashyyyk. Kenobi skywalker leia binks.
@@ -81,7 +81,7 @@ $articles = [
         'authorId' => 3,
         'image' => 'img/starwars.png',
     ],
-    $articles = [
+    [
         'title' => 'C-3p0 fett mace skywalker hutt darth.',
         'content' => "Lucas ipsum dolor sit amet darth darth binks ventress moff gamorrean skywalker kenobi sith sidious. Mustafar kenobi darth anakin. Lobot aayla skywalker gamorrean palpatine mon fett. Skywalker c-3p0 luke tatooine. R2-d2 naboo yoda greedo yavin aayla palpatine tatooine. Ewok jabba hutt yavin boba vader dagobah tusken raider skywalker. Bothan dooku kamino wedge darth jade. Hutt palpatine organa moff moff skywalker gamorrean binks twi'lek. Obi-wan obi-wan skywalker fett kashyyyk. Kenobi skywalker leia binks.
          Moff darth skywalker organa tusken raider organa. Moff leia endor hutt yoda moff. Grievous jabba wedge lando. Jabba moff jade leia yoda dooku vader antilles. Grievous mara ponda skywalker leia jawa. C-3p0 dantooine hutt mara binks kamino skywalker moff. Ahsoka hutt r2-d2 dagobah obi-wan wicket. Fisto darth hoth ben windu. Organa kessel tatooine ponda yoda calamari. Yavin maul mustafar kenobi hutt hutt windu. Skywalker yavin anakin moff darth. Organa ben dooku hutt chewbacca skywalker fett. Baba windu ben fisto mon tatooine grievous hutt luke.                
@@ -93,7 +93,7 @@ $articles = [
         'authorId' => 4,
         'image' => 'img/starwars.png',
     ],
-    $articles = [
+    [
         'title' => 'Organa jango secura ahsoka jar organa hutt.',
         'content' => "Lucas ipsum dolor sit amet darth darth binks ventress moff gamorrean skywalker kenobi sith sidious. Mustafar kenobi darth anakin.
         Lobot aayla skywalker gamorrean palpatine mon fett. Skywalker c-3p0 luke tatooine. R2-d2 naboo yoda greedo yavin aayla palpatine tatooine. Ewok jabba hutt yavin boba vader dagobah tusken raider skywalker. Bothan dooku kamino wedge darth jade. Hutt palpatine organa moff moff skywalker gamorrean binks twi'lek. Obi-wan obi-wan skywalker fett kashyyyk. Kenobi skywalker leia binks.
@@ -107,7 +107,7 @@ $articles = [
         'authorId' => 4,
         'image' => 'img/starwars.png',
     ],
-    $articles = [
+    [
         'title' => 'Skywalker mara obi-wan maul boba tusken raider.',
         'content' => "Lucas ipsum dolor sit amet darth darth binks ventress moff gamorrean skywalker kenobi sith sidious. Mustafar kenobi darth anakin. Lobot aayla skywalker gamorrean palpatine mon fett. Skywalker c-3p0 luke tatooine. R2-d2 naboo yoda greedo yavin aayla palpatine tatooine. Ewok jabba hutt yavin boba vader dagobah tusken raider skywalker. Bothan dooku kamino wedge darth jade. Hutt palpatine organa moff moff skywalker gamorrean binks twi'lek. Obi-wan obi-wan skywalker fett kashyyyk. Kenobi skywalker leia binks.
          Moff darth skywalker organa tusken raider organa. Moff leia endor hutt yoda moff. Grievous jabba wedge lando. Jabba moff jade leia yoda dooku vader antilles. Grievous mara ponda skywalker leia jawa. C-3p0 dantooine hutt mara binks kamino skywalker moff. Ahsoka hutt r2-d2 dagobah obi-wan wicket. Fisto darth hoth ben windu. Organa kessel tatooine ponda yoda calamari. Yavin maul mustafar kenobi hutt hutt windu. Skywalker yavin anakin moff darth. Organa ben dooku hutt chewbacca skywalker fett. Baba windu ben fisto mon tatooine grievous hutt luke.                
@@ -119,7 +119,7 @@ $articles = [
         'authorId' => 5,
         'image' => 'img/starwars.png',
     ],
-    $articles = [
+    [
         'title' => 'Leia organa hutt luke mace mandalorians.',
         'content' => "Lucas ipsum dolor sit amet darth darth binks ventress moff gamorrean skywalker kenobi sith sidious. Mustafar kenobi darth anakin. Lobot aayla skywalker gamorrean palpatine mon fett. Skywalker c-3p0 luke tatooine. R2-d2 naboo yoda greedo yavin aayla palpatine tatooine. Ewok jabba hutt yavin boba vader dagobah tusken raider skywalker. Bothan dooku kamino wedge darth jade. Hutt palpatine organa moff moff skywalker gamorrean binks twi'lek. Obi-wan obi-wan skywalker fett kashyyyk. Kenobi skywalker leia binks.
          Moff darth skywalker organa tusken raider organa. Moff leia endor hutt yoda moff. Grievous jabba wedge lando. Jabba moff jade leia yoda dooku vader antilles. Grievous mara ponda skywalker leia jawa. C-3p0 dantooine hutt mara binks kamino skywalker moff. Ahsoka hutt r2-d2 dagobah obi-wan wicket. Fisto darth hoth ben windu. Organa kessel tatooine ponda yoda calamari. Yavin maul mustafar kenobi hutt hutt windu. Skywalker yavin anakin moff darth. Organa ben dooku hutt chewbacca skywalker fett. Baba windu ben fisto mon tatooine grievous hutt luke.                
