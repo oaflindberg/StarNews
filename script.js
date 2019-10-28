@@ -1,3 +1,3 @@
-const getDate = new Date();
-const rightNow = getDate.getFullYear() + '-' + (getDate.getMonth() + 1) + '-' + getDate.getDate();
+const date = new Date();
+const rightNow = date.getFullYear() + '-' + (date.getMonth() + 1) + '-' + date.getDate();
 document.body.querySelector('.displaydate').innerHTML = 'Todays date: ' + rightNow;
