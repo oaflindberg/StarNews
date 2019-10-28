@@ -42,7 +42,7 @@ usort($articles, function (array $a, array $b): int {
             <article>
                 <h1 class="articletitle"><?php echo getRandomTitle(); ?></h1>
                 <p class="articlepublished">Article published: <?php echo $articlePublished; ?></p>
-                <div class="like">
+                <div class="likeswrapper">
                     <img class="likeicon" src="img/like.png" alt="Heart">
                     <p class="likes">Likes: <?php echo randomLikes() ?></p>
                 </div>

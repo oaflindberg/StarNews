@@ -2,12 +2,22 @@
 
 declare(strict_types=1);
 
-function randomLikes()
+/**
+ * Generates 
+ *
+ * @return int
+ */
+function randomLikes(): int
 {
     return rand(1977, 2019);
 };
 
-function getRandomTitle()
+/**
+ * Picks one of the titles in the array and adds it to an article.
+ *
+ * @return string
+ */
+function getRandomTitle(): string
 {
     $titles = [
         'Skywalker mara obi-wan maul boba tusken raider.',

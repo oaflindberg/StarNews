@@ -74,7 +74,7 @@ nav p {
     font-size: 12px;
 }
 
-.like {
+.likeswrapper {
     display: flex;
     flex-direction: row;
 }
@@ -84,6 +84,11 @@ nav p {
     width: 12px;
     margin-top: 5px;
     margin-right: 5px;
+}
+
+.likeicon:hover {
+    opacity: 0.5;
+    cursor: pointer;
 }
 
 .likes {
@@ -97,13 +102,13 @@ nav p {
 }
 
 .articleimage {
-    width: 50vw;
-    height: auto;
+    width: 50%;
     margin-bottom: 20px;
 }
 
 .articlecontent {
     margin-bottom: 40px;
+    font-size: 12px;
 }
 
 .articlefooter {
@@ -141,7 +146,7 @@ nav p {
 
     .articleimage {
         width: 30vw;
-        height: auto;
+        height: 25%;
         margin-bottom: 20px;
     }
 
