@@ -3,7 +3,7 @@
 declare(strict_types=1);
 
 /**
- * Generates 
+ * Generates a random amount of likes.
  *
  * @return int
  */
