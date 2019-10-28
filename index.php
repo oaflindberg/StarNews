@@ -22,11 +22,10 @@ usort($articles, function (array $a, array $b): int {
 </head>
 
 <body>
-    <nav>
+    <header>
         <h1>Star News!</h1>
-        <p>News from a galaxy far, far away...</p>
         <p class="displaydate"></p>
-    </nav>
+    </header>
 
     <main>
         <?php foreach ($articles as $article) : ?>
