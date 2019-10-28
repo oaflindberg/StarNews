@@ -111,6 +111,7 @@ article {
 .articleimage {
     width: 50%;
     margin-bottom: 20px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.288);
 }
 
 .articlecontent {
