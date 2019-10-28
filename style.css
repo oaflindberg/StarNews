@@ -84,10 +84,12 @@ nav p {
     width: 12px;
     margin-top: 5px;
     margin-right: 5px;
+    transition: 400ms ease-in-out;
 }
 
 .likeicon:hover {
     opacity: 0.5;
+    transform: scale(1.1);
     cursor: pointer;
 }
 
