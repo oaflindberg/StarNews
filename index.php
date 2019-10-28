@@ -25,6 +25,7 @@ usort($articles, function (array $a, array $b): int {
     <nav>
         <h1>Star News!</h1>
         <p>News from a galaxy far, far away...</p>
+        <p class="displaydate"></p>
     </nav>
 
     <main>
@@ -62,7 +63,7 @@ usort($articles, function (array $a, array $b): int {
 
         <?php endforeach; ?>
     </main>
-
+    <script src="script.js"></script>
 </body>
 
 </html>
