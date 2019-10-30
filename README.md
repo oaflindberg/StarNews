@@ -5,7 +5,7 @@ First assignment in PHP class @ YRGO.
 - [Assignment instructions](#Assignment-instructions)
 - [Screenshots](#Screenshots)
 - [Installation](#Installation)
-- [Testers](#Testers)
+- [Tested by](#Tested-by)
 - [Code review](#Code-review)
 
 # 
@@ -45,7 +45,7 @@ The project can only contain HTML, CSS, PHP and JavaScript.
 
 #
 
-## Tester
+## Tested by
 
 ### Andreas Lindberg
 Tested in browsers: 
