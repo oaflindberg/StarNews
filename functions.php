@@ -3,6 +3,19 @@
 declare(strict_types=1);
 
 /**
+ * Sorts the articles by published date.
+ *
+ * @param array $a
+ * @param array $b
+ * @return integer
+ */
+function sortByDate(array $a, array $b): int
+{
+    return strtotime($b['published']) - strtotime($a['published']);
+}
+
+
+/**
  * Generates a random amount of likes.
  *
  * @return int

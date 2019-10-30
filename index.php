@@ -3,9 +3,7 @@
 require __DIR__ . '/data.php';
 require __DIR__ . '/functions.php';
 
-usort($articles, function (array $a, array $b): int {
-    return strtotime($b['published']) - strtotime($a['published']);
-});
+usort($articles, 'sortByDate');
 
 ?>
 
