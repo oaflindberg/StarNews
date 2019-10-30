@@ -28,7 +28,7 @@ The project can only contain HTML, CSS, PHP and JavaScript.
 ## Installation
 
 - Clone repository
-- $ git clone git@github.com:oaflindberg/StarNews.git
+- ```$ git clone git@github.com:oaflindberg/StarNews.git```
 - Start a PHP server from the folder. *(php -S localhost:1337)*
 
 
