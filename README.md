@@ -18,9 +18,9 @@ First assignment in PHP class @ YRGO.
 
 ### Desktop view
 
-<img src="https://i.imgur.com/Sn2gLnQ.png" width=100%>
+<img src="https://i.imgur.com/6fJR048.png" width=100%>
 
 ### Mobile view
 
-<img src="https://i.imgur.com/Y1fxZim.png" heigh="100%">
+<img src="https://i.imgur.com/8b8mCm0.png" heigh="100%">
 
