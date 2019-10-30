@@ -41,7 +41,7 @@ The project can only contain HTML, CSS, PHP and JavaScript.
 
 ### Mobile view
 
-<img src="https://i.imgur.com/Q5poYa6.png" heigh="100%">
+<img src="https://i.imgur.com/Q5poYa6.png" width="50%">
 
 #
 
