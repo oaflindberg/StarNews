@@ -2,12 +2,17 @@
 First assignment in PHP class @ YRGO.
 
 ## Table of Contents
-- [Installation](#Installation)
+- [Assignment instructions](#Assignment-instructions)
 - [Screenshots](#Screenshots)
+- [Installation](#Installation)
+- [Testers](#Testers)
+- [Code review](#Code-review)
+
 # 
+
 ## Assignment instructions
 
-- Create a news feed in PHP. 
+### Create a news feed in PHP. 
 
 The news feed should contain:
 - Title
@@ -40,7 +45,7 @@ The project can only contain HTML, CSS, PHP and JavaScript.
 
 #
 
-## Project tested by
+## Tester
 
 ### Andreas Lindberg
 Tested in browsers: 
