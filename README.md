@@ -27,9 +27,10 @@ The project can only contain HTML, CSS, PHP and JavaScript.
 
 ## Installation
 
-- Clone repository
+- Clone repository by running the command below in your Terminal.
 - ```$ git clone git@github.com:oaflindberg/StarNews.git```
-- Start a PHP server from the folder. *(php -S localhost:1337)*
+- Navigate to the folder using your Terminal. Start PHP server from the folder by running the command below.
+- ```php -S localhost:1337```
 
 
 
