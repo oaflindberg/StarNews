@@ -18,7 +18,7 @@ First assignment in PHP class @ YRGO.
 
 ### Desktop view
 
-<img src="https://i.imgur.com/6fJR048.png" width=100%>
+<img src="https://i.imgur.com/6fJR048.png" width="100%">
 
 ### Mobile view
 
