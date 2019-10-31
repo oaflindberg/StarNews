@@ -48,17 +48,23 @@ The project can only contain HTML, CSS, PHP and JavaScript.
 
 ## Tested by
 
-### Andreas Lindberg
-Tested in browsers: 
-- Firefox
-- Safari
-- Brave 
+- Andreas Lindberg
+- Oskar Joss
+- Thomas Sönnerstam
 
 
 #
 
 
 ## Code Review
+
+- Likes under $articles doesn't seem to have a purpose.
+- Lacking descripiton of script in script.js.
+- Might be clearer to use publishDate instead of published.
+- Article content could be in a separate file for better overview.
+- Would be nice with some comments in style.css to see what style belongs to which part of the site more easily.
+
+*Code review by: Alexander Gustafsson Flink*
 
 
 
