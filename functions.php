@@ -30,7 +30,7 @@ function randomLikes(): int
  *
  * @return string
  */
-function getRandomTitle(): string
+function getRandomTitle ( ): string
 {
     $titles = [
         'Skywalker mara obi-wan maul boba tusken raider.',
